@@ -1,0 +1,318 @@
+createdBy: 198aborern
+contributors:
+  - 198adorern
+viewCount: 0
+editCount: 0
+isPublic: true
+isArchived: false
+isFeatured: false
+cover:
+  companyName: Matchmaking Concierge AI
+  tagline: Premium AI-powered dating concierge for NYC professionals — psychology meets automation
+  mission: 'Occupy the unoccupied middle market: AI-native and psychologist-backed dating concierge at $500-$2,000/month, far cheaper than traditional luxury matchmakers ($10K-$500K+) but with genuine human expertise that pure AI services lack.'
+  vision: 'Become the #1 AI-powered premium dating concierge in major US metros, expanding from NYC to Boston, DC, and SF, combining deep psychology with agentic AI to make meaningful connections accessible to professionals.'
+  productType: ai-agent
+  industryVertical: Dating & Relationships
+  stage: idea
+  fundingStage: bootstrapped
+  headquarters: New York, NY
+  legalStructure: LLC
+  logoEmoji: 💘
+  accentColor: '#C74375'
+  version: v1.0
+  preparedBy: Roberto Eisenlohr
+  fundingSought: $10,000 (founder-contributed)
+  tractionHighlights:
+    revenue: Pre-revenue, targeting $162K Year 1
+    users: 280K premium addressable segment in NYC
+    partnerships: Psychologist co-founder with 10-year NYC network
+    press: Targeting NYC media (The Cut, Forbes Women)
+problemSolution:
+  corePainPoint: 'Modern dating in NYC has two unsatisfactory extremes: dating apps are cheap but emotionally exhausting and ineffective (71% report burnout), while traditional matchmakers are effective but prohibitively expensive ($10K-$500K+). There is no middle ground offering genuine human expertise with AI efficiency.'
+  painDimensions:
+    who: NYC professionals aged 28-55, income $80K-$200K+, dating-app fatigued and relationship-seeking
+    frequency: Daily — 10+ hours/week spent on apps; 90% of matches never lead to real dates
+    currentWorkarounds: Tinder/Hinge/Bumble (free but exhausting), or premium matchmakers like Janis Spindel ($25K-$1M) that are inaccessible
+    costOfProblem: Emotional toll of ghosting, rejection, and wasted time; delayed life milestones; missed meaningful connections
+    urgencyLevel: High — NYC dating app fatigue at record levels, 71% report burnout
+  solutionOneLiner: An AI-powered dating concierge that combines six specialized AI agents with a licensed psychologist to manage your entire dating pipeline — from profile optimization to date booking — via WhatsApp/SMS, at 1/10th the cost of traditional matchmakers.
+  features:
+    - feature: ProfileAgent
+      benefit: Optimizes dating app profiles (copy + photos) for maximum matches
+      techLayer: GPT-4o + Vision API
+    - feature: ScreeningAgent
+      benefit: Analyzes potential matches for compatibility + red flags
+      techLayer: LLM + Attachment Theory scoring
+    - feature: ConversationAgent
+      benefit: Drafts personalized first messages (human reviews before send)
+      techLayer: GPT-4o with human-in-the-loop
+    - feature: SchedulingAgent
+      benefit: Negotiates date times via WhatsApp; syncs with Google Calendar
+      techLayer: Twilio + Google Calendar API
+    - feature: VenueAgent
+      benefit: Recommends and books NYC restaurants via Resy/OpenTable
+      techLayer: Resy API + OpenTable API
+    - feature: CoachAgent
+      benefit: Pre-date briefing and post-date feedback collection
+      techLayer: LLM + Psychologist oversight
+  unfairAdvantage: Unique psychologist + AI architect founding combination. Licensed psychologist provides attachment-theory-based compatibility scoring that no pure-AI service can match. OpenClaw proprietary agentic orchestration layer. Zero-VC model means decisions driven by clients, not investors. Ready-made referral pipeline from psychologist's 10-year NYC therapy/coaching network.
+  market:
+    tam: All paid dating services in NYC
+    tamSize: $420M/yr
+    tamSource: IBISWorld Dating Services 2025
+    sam: Premium/concierge dating segment in NYC
+    samSize: $85M/yr
+    samSource: Competitor pricing analysis + NYC census data
+    som: First 30 clients in Year 1
+    somSize: $162K
+    somSource: 'Bottom-up: 30 clients × average $450/mo × 12 months'
+  whyNow: Dating app fatigue at record high (71% burnout). AI agent adoption going mainstream in 2026 normalizes AI-assisted communication. The $500-$2,000/mo price band is completely underserved with genuine tech + psychological depth. No one in NYC currently offers psychologist-backed compatibility scoring combined with end-to-end agentic AI pipeline management.
+productGtm:
+  techStack:
+    productType: AI Agent (Twilio/WhatsApp-based, no app install)
+    frontend: WhatsApp/SMS via Twilio (no custom app)
+    backend: Node.js + Python FastAPI
+    aiLayer: OpenClaw orchestration → GPT-4o (primary) + Claude 3 Opus (fallback)
+    dataStorage: PostgreSQL (Railway-hosted) + Redis (agent state)
+    authPayments: Stripe + Twilio Auth
+    hosting: Railway.com (auto-scaling, SOC 2 compliant)
+    buildStage: Idea / Pre-MVP
+    ipLayer: OpenClaw proprietary agentic orchestration layer (founder-licensed)
+  gtmChannels:
+    - channel: Referral Programme
+      tactic: Referring client gets 1 month free; new client gets $200 off
+      goal90Day: 10 referred clients
+      owner: Both founders
+      budgetPerMonth: $0
+    - channel: Psychologist Network
+      tactic: Informal referral partnerships with 3-5 NYC therapists/coaches
+      goal90Day: 5 clients from network
+      owner: Co-founder (Psychologist)
+      budgetPerMonth: $0
+    - channel: LinkedIn Content
+      tactic: Weekly posts on AI, relationships, dating psychology
+      goal90Day: 5,000 followers
+      owner: Roberto
+      budgetPerMonth: $0
+    - channel: Newsletter
+      tactic: '"The Science of Connection" via LinkedIn + Substack'
+      goal90Day: 2,000 subscribers
+      owner: Co-founder (Psychologist)
+      budgetPerMonth: $0
+    - channel: NYC Mixers
+      tactic: 1-2 professional mixers per quarter as participant
+      goal90Day: 3 direct client leads
+      owner: Both
+      budgetPerMonth: $150
+  icp: NYC professionals aged 28-55, income $80K-$200K+, tech-comfortable, relationship-focused, dating-app fatigued, value professional expertise
+  pricingModel: 'Subscription-based (3 tiers: Spark $497/mo, Flame $997/mo, Ember Elite $1,997/mo)'
+  pricePoint: $497-$1,997/mo (minimum 3 months)
+  salesMotion: Referral-driven + organic content + psychologist network outreach
+  timeToValue: 48 hours — profile optimization + first curated match within first week
+  competitors:
+    - dimension: Price Range
+      yourProduct: $497-$1,997/mo
+      competitorA: 'Janis Spindel: $25K-$1M'
+      competitorB: 'VIDA Select: $495-$1,295/mo'
+      competitorC: 'Hinge Premium: $30-$50/mo'
+    - dimension: AI Integration
+      yourProduct: 6 autonomous AI agents
+      competitorA: None
+      competitorB: Basic profile writing
+      competitorC: Basic matching algorithm
+    - dimension: Psychology Layer
+      yourProduct: Licensed psychologist + attachment theory
+      competitorA: Human matchmaker (no formal psychology)
+      competitorB: None
+      competitorC: None
+    - dimension: Delivery Channel
+      yourProduct: WhatsApp/SMS (no app)
+      competitorA: In-person meetings
+      competitorB: Phone + email
+      competitorC: Mobile app
+    - dimension: Monthly Infrastructure Cost
+      yourProduct: $80-$414
+      competitorA: $30K+
+      competitorB: $5K+
+      competitorC: $100K+
+teamRoadmap:
+  founders:
+    - name: Roberto Eisenlohr
+      role: AI Architect & CTO
+      background: Full-stack AI engineering, agentic system design, LLM orchestration. Creator of OpenClaw orchestration layer.
+      commitment: Full-time
+      equity: 50%
+    - name: Licensed Psychologist (Co-founder)
+      role: Head of Client Experience & Compatibility Science
+      background: 10 years clinical practice; expertise in attachment theory, relationship psychology, personality assessment (MBTI, Big Five, ACT)
+      commitment: Full-time
+      equity: 50%
+  advisors: NYC therapy/coaching network (10+ years of professional relationships)
+  openRoles: Part-time client coordinator (Month 10-12, ~10 hrs/week), Second psychologist (Month 10-14, revenue-share model)
+  kpis:
+    - metric: Active Clients
+      current: '0'
+      target3mo: '8'
+      target12mo: '30'
+      notes: Break-even at 10 Spark clients
+    - metric: MRR
+      current: $0
+      target3mo: $5,479
+      target12mo: $26,880
+      notes: Profitable from Month 3
+    - metric: Net Promoter Score
+      current: N/A
+      target3mo: '>70'
+      target12mo: '>75'
+      notes: Key retention metric
+    - metric: Monthly Churn Rate
+      current: N/A
+      target3mo: <10%
+      target12mo: <7%
+      notes: ''
+    - metric: Referral-driven Clients (%)
+      current: N/A
+      target3mo: '>40%'
+      target12mo: '>60%'
+      notes: Primary growth channel
+    - metric: LTV:CAC Ratio
+      current: N/A
+      target3mo: '>15x'
+      target12mo: '>20x'
+      notes: 'Target: 21x-102x across tiers'
+  milestones:
+    - milestone: LLC Formation + Legal Setup
+      owner: Both
+      targetDate: Q2 2026
+      budget: $1,500
+      successCriteria: LLC filed, ToS/Privacy drafted, NY Matchmaking Services Act compliant
+      status: not-started
+    - milestone: MVP Build + Soft Launch
+      owner: Roberto
+      targetDate: Q2 2026
+      budget: $2,000
+      successCriteria: 5 founding members paying, all 6 agents operational
+      status: not-started
+    - milestone: Break-even (10 clients)
+      owner: Both
+      targetDate: Q3 2026
+      budget: $0
+      successCriteria: $4,970+ MRR, all costs covered
+      status: not-started
+    - milestone: Launch Flame Tier + Referral Programme
+      owner: Both
+      targetDate: Q3 2026
+      budget: $500
+      successCriteria: 20 clients, NPS >70
+      status: not-started
+    - milestone: Launch Elite Tier + First Media Feature
+      owner: Both
+      targetDate: Q4 2026
+      budget: $1,000
+      successCriteria: 30+ clients, MRR >$25K, NYC media coverage
+      status: not-started
+    - milestone: Podcast "Wired for Love" Launch
+      owner: Both
+      targetDate: Q1 2027
+      budget: $500
+      successCriteria: 10 episodes published, 40+ clients
+      status: not-started
+fundingAsk:
+  totalRaise: $10,000 (founder-contributed)
+  instrument: Self-funded / Bootstrapped
+  valuationCapTerms: N/A — 100% founder-owned
+  targetCloseDate: Q2 2026
+  askOneLiner: We are self-funding with $10,000 to build and launch a premium AI+Psychology dating concierge in NYC, targeting profitability by Month 3.
+  useOfFunds:
+    - category: LLC Formation + Legal
+      amount: $1,500
+      percentage: 15%
+      timeline: Month 1
+      milestoneUnlocked: Legal compliance, NY Matchmaking Services Act
+    - category: Infrastructure (6-month runway)
+      amount: $1,200
+      percentage: 12%
+      timeline: Months 1-6
+      milestoneUnlocked: Railway + Twilio + OpenAI APIs
+    - category: Design (logo, landing, photography)
+      amount: $800
+      percentage: 8%
+      timeline: Month 1
+      milestoneUnlocked: Brand foundation
+    - category: Tools & Subscriptions
+      amount: $630
+      percentage: 6%
+      timeline: Year 1
+      milestoneUnlocked: Typeform, Canva, GitHub, domain/email
+    - category: Events & Networking
+      amount: $900
+      percentage: 9%
+      timeline: Months 1-6
+      milestoneUnlocked: ~3 events × $300 each
+    - category: Accountant Consultation
+      amount: $400
+      percentage: 4%
+      timeline: Month 1
+      milestoneUnlocked: Initial bookkeeping + tax setup
+    - category: Contingency Reserve
+      amount: $3,470
+      percentage: 35%
+      timeline: As needed
+      milestoneUnlocked: Buffer for unexpected expenses
+  elevatorPitch:
+    hook: 71% of NYC singles report dating app burnout, yet traditional matchmakers charge $10K-$500K. There is no middle ground.
+    companyIntro: We built Matchmaking Concierge AI — a premium dating concierge combining six specialized AI agents with a licensed psychologist, delivered via WhatsApp at $497-$1,997/month.
+    tractionProof: 280,000 premium-addressable singles in NYC metro, with a founding psychologist who has 10 years of NYC therapy/coaching relationships as a ready-made referral pipeline.
+    marketSize: $420M/yr TAM in NYC dating services alone; $85M/yr in the premium/concierge segment.
+    askAndUse: We are self-funding $10K to build our MVP and reach profitability by Month 3 with just 10 active clients.
+    cta: Join us as a founding member or partner — help reshape premium dating in NYC.
+  risks:
+    - risk: Platform Dependency
+      likelihood: medium
+      impact: high
+      mitigation: Multi-platform support (Hinge, Bumble); positioned as AI-assisted client-directed actions
+    - risk: Two-person Team Scaling Ceiling
+      likelihood: high
+      impact: medium
+      mitigation: Revenue-funded hires starting Month 10; second psychologist on revenue-share model
+    - risk: Psychologist Time Scarcity
+      likelihood: medium
+      impact: medium
+      mitigation: AI handles 80% of pipeline; psychologist focuses on intake + coaching sessions only
+    - risk: Market Risk — Client Acquisition
+      likelihood: medium
+      impact: high
+      mitigation: Psychologist network provides 5+ warm referrals at launch; referral programme reduces CAC to ~$100-$200
+    - risk: Regulatory Risk (AI Dating)
+      likelihood: low
+      impact: medium
+      mitigation: Full AI disclosure; human approval required for every outbound message; NY Matchmaking Act compliant
+financials:
+  revenueModel: Subscription SaaS (Spark $497/mo, Flame $997/mo, Elite $1,997/mo, min 3 months)
+  grossMargin: 84-85%
+  burnRate: $3,000-$5,000/mo (initial)
+  runway: 3 months on $10K seed; self-sustaining from Month 3
+  breakEvenTarget: Month 3 at 10 Spark clients ($4,970/mo revenue)
+  cac: $100-$200 (referral-driven)
+  ltv: $2,100 (Spark) / $7,180 (Flame) / $20,360 (Elite)
+  projections:
+    - year: Year 1
+      revenue: $162K
+      ebitda: +$122K
+      users: 30 clients
+    - year: Year 2
+      revenue: $390K-$720K
+      ebitda: +$180K-$380K
+      users: 45-80 clients
+    - year: Year 3
+      revenue: $900K-$1.8M
+      ebitda: +$450K-$1.0M
+      users: 100-200 clients
+    - year: Year 4
+      revenue: $2M+
+      ebitda: $1M+
+      users: 300+ clients (multi-city)
+id: matchmaking-concierge-ai-mnlby0ks
+slug: matchmaking-concierge-ai-mnlby0ks
+createdAt: '2026-04-05T05:37:39.564Z'
+updatedAt: '2026-04-05T05:37:39.566Z'
